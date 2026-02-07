@@ -1,3 +1,4 @@
+import IconComponent from "./components/IconComponent"
 import ProfileCard from "./components/ProfileCard"
 import StyleCard from "./components/StyleCard"
 
@@ -9,9 +10,14 @@ function App() {
 
   return (
     <>
-      <StyleCard />
+     
+       <StyleCard />
 
       <ProfileCard />
+      
+    
+
+     <IconComponent />
     </>
   )
 }
